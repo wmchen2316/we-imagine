@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>作品｜WE IMAGINE 陳為明 空間攝影</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,800&family=Noto+Sans+TC:wght@400;500;900&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="project">
+<a class="skip" href="#main">跳到照片</a>
+
+<header class="hd">
+  <a class="mark" href="index.html" translate="no">WE IMAGINE</a>
+  <nav aria-label="主選單"><a href="index.html#works">作品</a><a href="index.html#about">關於</a><a href="index.html#contact">聯絡</a></nav>
+</header>
+
+<main id="main">
+  <a class="back" href="index.html#works">全部作品</a>
+  <div class="ptitle"><h1 id="title"></h1><dl class="facts" id="facts"></dl></div>
+  <div id="gallery"></div>
+  <noscript><p class="empty">這個網站需要開啟 JavaScript 才能顯示照片。</p></noscript>
+  <a class="next" id="next" href="index.html"><span>下一件作品</span><strong></strong></a>
+</main>
+
+<footer class="ft"><p class="copy">© 2026 <span translate="no">WE IMAGINE</span> 陳為明</p></footer>
+
+<dialog class="lb" id="lb" aria-label="看大圖">
+  <div class="lb-bar"><span id="lb-count" aria-live="polite"></span>
+    <button type="button" id="lb-close" aria-label="關閉"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div>
+  <div class="lb-stage" id="lb-stage">
+    <img id="lb-img" alt="">
+    <button type="button" class="nav prev" id="lb-prev" aria-label="上一張"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4l-8 8 8 8"/></svg></button>
+    <button type="button" class="nav nextb" id="lb-next" aria-label="下一張"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4l8 8-8 8"/></svg></button>
+  </div>
+</dialog>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
